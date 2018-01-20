@@ -1,5 +1,5 @@
 # SkiHill
-ASP.NET MVC application with a simple WCF service and REST API
+#### ASP.NET MVC application with a simple WCF service and REST API
 
 The application is about a ski products store. 
 
