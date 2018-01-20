@@ -1,0 +1,14 @@
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\SkiHillService.dll.config
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\SkiHillService.dll
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\SkiHillService.pdb
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\EntityFramework.dll
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\EntityFramework.xml
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\obj\Debug\SkiHillService.csprojResolveAssemblyReference.cache
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\obj\Debug\SkiHillService.csproj.CoreCompileInputs.cache
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\obj\Debug\SkiHillService.dll
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\obj\Debug\SkiHillService.pdb
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\EntityFramework.SqlServer.dll
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\EntityFramework.SqlServer.xml
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\DAL.dll
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\DAL.pdb
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\SkiHillService\bin\DAL.dll.config

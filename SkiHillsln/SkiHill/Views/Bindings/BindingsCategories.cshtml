@@ -1,0 +1,16 @@
+﻿@using System.Text.RegularExpressions;
+
+<div class="wrapper three-cols col-md-offset-1">
+
+    <a href="@Url.Action("Index", "Bindings", new {categ= @DAL.Models.BindingCategory.Alpine.ToString() })">
+        <div id="alpine-bindings" class="prod-images"></div>@DAL.Models.BindingCategory.Alpine.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Bindings", new {categ= @DAL.Models.BindingCategory.CrossCountry.ToString() })">
+        <div id="cross-bindings" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.BindingCategory.CrossCountry.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>   
+    <a href="@Url.Action("Index", "Bindings", new {categ= @DAL.Models.BindingCategory.Touring.ToString() })">
+        <div id="touring-bindings" class="prod-images"></div>@DAL.Models.BindingCategory.Touring.ToString()
+    </a>
+
+</div>
+

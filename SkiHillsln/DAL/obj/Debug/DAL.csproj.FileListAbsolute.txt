@@ -1,0 +1,2 @@
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache

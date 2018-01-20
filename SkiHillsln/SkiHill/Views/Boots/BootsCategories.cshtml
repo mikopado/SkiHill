@@ -1,0 +1,25 @@
+﻿@using System.Text.RegularExpressions;
+
+<div class="wrapper three-cols col-md-offset-1">
+
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.CrossCountry.ToString() })">
+        <div id="cross-boots" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.BootCategory.CrossCountry.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.SkiLiners.ToString() })">
+        <div id="liners-boots" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.BootCategory.SkiLiners.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.SkiTouring.ToString() })">
+        <div id="touring-boots" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.BootCategory.SkiTouring.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.Junior.ToString() })">
+        <div id="junior-boots" class="prod-images"></div>@DAL.Models.BootCategory.Junior.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.Man.ToString() })">
+        <div id="man-boots" class="prod-images"></div>@DAL.Models.BootCategory.Man.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Boots", new {categ= @DAL.Models.BootCategory.Woman.ToString() })">
+        <div id="woman-boots" class="prod-images"></div>@DAL.Models.BootCategory.Woman.ToString()
+    </a>
+
+</div>
+

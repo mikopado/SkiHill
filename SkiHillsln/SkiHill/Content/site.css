@@ -1,0 +1,186 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+   padding: 0;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*************************************************************
+                LANDING PAGE
+*****************************************************/
+#landing-page {
+    width: 100%;
+    min-height: 100vh;
+    background: url("images/wallpaper.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+h1 {
+    font-size: 6em;    
+}
+
+h3 {
+    color: #4a4848;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+.navbar-brand, h1 {
+    font-family: 'Coustard', serif;
+    font-weight: 100;
+}
+.navbar-right{
+    font-weight: bold;
+}
+/*Products Categories Grids*/
+.wrapper {
+    display: grid;
+    grid-gap: 100px;    
+    grid-template-rows: repeat(2, 200px);
+    grid-column-gap: 250px;
+    margin-top: 50px;    
+}
+.two-cols {
+    grid-template-columns: repeat(2, 200px);
+}
+.three-cols {
+    grid-template-columns: repeat(3, 200px);
+}
+.wrapper a {
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    max-height: 200px;
+    max-width: 100%;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    padding: 10%;
+    font-weight: bold;
+}
+.wrapper a, .wrapper a:hover, .wrapper a:focus, .wrapper a:visited{
+    text-decoration: none!important;
+    color: black;
+}
+/*********************************************************
+                    Products page
+******************************************************/
+#ski-products {
+    background: url("images/ski_categ.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#bindings-products {
+    background: url("images/bindings_categ.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#boots-products {
+    background: url("images/boots_categ.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+#helmets-products {
+    background: url("images/helmets_categ.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-allmountain {
+    background: url("images/ski-allmountain.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-race {
+    background: url("images/ski-race.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-freestyle {
+    background: url("images/ski-freestyle.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-freeride {
+    background: url("images/ski-freeride.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-touring {
+    background: url("images/ski-touring.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#ski-cross {
+    background: url("images/ski-crooscountry.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#alpine-bindings {
+    background: url("images/alpine-bindings.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#touring-bindings {
+    background: url("images/touring-bindings.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#cross-bindings {
+    background: url("images/cross-bindings.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#cross-boots {
+    background: url("images/cross-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#man-boots {
+    background: url("images/man-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#junior-boots {
+    background: url("images/junior-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#woman-boots {
+    background: url("images/woman-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#liners-boots {
+    background: url("images/liners-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#touring-boots {
+    background: url("images/touring-boots.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#helm-woman {
+    background: url("images/woman-helmet.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#helm-junior {
+    background: url("images/junior-helmet.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#helm-man {
+    background: url("images/man-helmet.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#helm-touring {
+    background: url("images/touring-helmet.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.prod-images {
+    width: 100%;
+    height: 100%;    
+}
+.create-links{
+    margin-bottom: 20px;
+}

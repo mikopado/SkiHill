@@ -1,0 +1,8 @@
+﻿$(function () {
+    
+       
+    
+     $(".prod-tables").dataTable();
+    
+    
+})

@@ -1,0 +1,20 @@
+﻿@using System.Text.RegularExpressions;
+
+<div class="wrapper three-cols col-md-offset-1">
+    
+    <a href="@Url.Action("Index", "Helmets", new {categ= @DAL.Models.HelmetCategory.Junior.ToString() })">
+        <div id="helm-junior" class="prod-images"></div>@DAL.Models.HelmetCategory.Junior.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Helmets", new {categ= @DAL.Models.HelmetCategory.Man.ToString() })">
+        <div id="helm-man" class="prod-images"></div>@DAL.Models.HelmetCategory.Man.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Helmets", new {categ= @DAL.Models.HelmetCategory.SkiTouring.ToString() })">
+        <div id="helm-touring" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.HelmetCategory.SkiTouring.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Helmets", new {categ= @DAL.Models.HelmetCategory.Woman.ToString() })">
+        <div id="helm-woman" class="prod-images"></div>@DAL.Models.HelmetCategory.Woman.ToString()
+    </a>
+    
+
+</div>
+

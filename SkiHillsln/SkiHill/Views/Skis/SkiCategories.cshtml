@@ -1,0 +1,24 @@
+﻿@using System.Text.RegularExpressions;
+
+<div class="wrapper three-cols col-md-offset-1">
+   
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.AllMountain.ToString() })">
+        <div id="ski-allmountain" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.SkiCategory.AllMountain.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.CrossCountry.ToString() })">
+        <div id="ski-cross" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.SkiCategory.CrossCountry.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.FreeRide.ToString() })">
+        <div id="ski-freeride" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.SkiCategory.FreeRide.ToString(), @"(?<!^)(?=[A-Z])"))
+    </a>
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.Freestyle.ToString() })">
+        <div id="ski-freestyle" class="prod-images"></div>@DAL.Models.SkiCategory.Freestyle.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.Race.ToString() })">
+        <div id="ski-race" class="prod-images"></div>@DAL.Models.SkiCategory.Race.ToString()
+    </a>
+    <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.Touring.ToString() })">
+        <div id="ski-touring" class="prod-images"></div>@DAL.Models.SkiCategory.Touring.ToString()
+    </a>
+    
+</div>
