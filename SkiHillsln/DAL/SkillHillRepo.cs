@@ -10,12 +10,12 @@ namespace DAL
 {
     public class SkillHillRepo<T> : IRepository<T> where T: class
     {
-        public SkiHillDb Db { get; set; }
+        public DbContext Db { get; set; }
         public DbSet<T> Entities { get; set; }
 
-        public SkillHillRepo()
+        public SkillHillRepo(DbContext db)
         {
-            Db = new SkiHillDb();
+            Db = db;
             Entities = Db.Set<T>();
         }
 

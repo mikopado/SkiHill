@@ -7,6 +7,7 @@ using DAL.Models;
 
 namespace DAL
 {
+    // Database intializer to populate database with some default data
     public class DbInitializer : DropCreateDatabaseAlways<SkiHillDb>
     {
         protected override void Seed(SkiHillDb context)

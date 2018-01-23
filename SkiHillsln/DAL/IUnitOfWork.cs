@@ -7,7 +7,7 @@ using DAL.Models;
 
 namespace DAL
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         IRepository<Ski> SkiRepo { get; set; }
         IRepository<Boot> BootsRepo { get; set; }
@@ -15,5 +15,6 @@ namespace DAL
         IRepository<Binding> BindingsRepo { get; set; }
 
         void Commit();
+
     }
 }

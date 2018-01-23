@@ -8,7 +8,7 @@ using DAL.Models;
 
 namespace DAL
 {
-    public class SkiHillDb : DbContext, IDb
+    public class SkiHillDb : DbContext
     {
         public DbSet<Ski> Ski { get; set; }
         public DbSet<Boot> Boots { get; set; }
