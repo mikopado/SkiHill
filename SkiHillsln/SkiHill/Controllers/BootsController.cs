@@ -20,7 +20,13 @@ namespace SkiHill.Controllers
         public ActionResult Index(string categ = "Man")
         {
             ViewBag.Title = string.Join(" ", Regex.Split(categ, @"(?<!^)(?=[A-Z])")) + " Boots";
-            return View(unit.BootsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+            if (unit.BootsRepo.Count() > 0)
+            {
+                return View(unit.BootsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+
+            }
+            return RedirectToAction("Create");
+
         }
 
         // GET: Boots/Details/5

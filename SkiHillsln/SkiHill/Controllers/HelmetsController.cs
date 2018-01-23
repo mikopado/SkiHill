@@ -21,7 +21,12 @@ namespace SkiHill.Controllers
         {
 
             ViewBag.Title = string.Join(" ", Regex.Split(categ, @"(?<!^)(?=[A-Z])")) + " Helmets";
-            return View(unit.HelmetsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+            if (unit.HelmetsRepo.Count() > 0)
+            {
+                return View(unit.HelmetsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+
+            }
+            return RedirectToAction("Create");
         }
 
         // GET: Helmets/Details/5
