@@ -21,7 +21,12 @@ namespace SkiHill.Controllers
         {
 
             ViewBag.Title = string.Join(" ", Regex.Split(categ, @"(?<!^)(?=[A-Z])")) + " Bindings";
-            return View(unit.BindingsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+            if (unit.BindingsRepo != null)
+            {
+                return View(unit.BindingsRepo.GetElements(x => x.Category.ToString().Equals(categ)));
+
+            }
+            return RedirectToAction("Create");
         }
 
         // GET: Bindings/Details/5
