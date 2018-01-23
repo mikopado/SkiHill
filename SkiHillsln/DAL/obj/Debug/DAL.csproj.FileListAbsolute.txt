@@ -9,3 +9,14 @@ C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\D\obj\Deb
 C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\D\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\D\obj\Debug\DAL.dll
 C:\Users\miche\Dropbox\Visual_Studio_Team_Service_Workspace\SkiHillsln\D\obj\Debug\DAL.pdb
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\DAL.dll.config
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\DAL.dll
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\DAL.pdb
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\EntityFramework.dll
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\EntityFramework.xml
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\obj\Debug\DAL.dll
+C:\Users\miche\Desktop\SkiHill\SkiHillsln\DAL\obj\Debug\DAL.pdb

@@ -20,6 +20,11 @@ namespace SkiHill.Tests.Mock
             Set.Add(element);
         }
 
+        public int Count()
+        {
+            return Set.Count;
+        }
+
         public void Delete(T element)
         {
             Set.Remove(element);
