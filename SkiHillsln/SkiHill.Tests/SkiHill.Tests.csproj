@@ -112,8 +112,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\D\DAL.csproj">
-      <Project>{11420408-137D-41D4-AE9E-1EF7BB7DAD80}</Project>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{11420408-137d-41d4-ae9e-1ef7bb7dad80}</Project>
       <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\SkiHill\SkiHill.csproj">

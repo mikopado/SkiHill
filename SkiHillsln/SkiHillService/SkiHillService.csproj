@@ -95,7 +95,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\D\DAL.csproj">
+    <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{11420408-137d-41d4-ae9e-1ef7bb7dad80}</Project>
       <Name>DAL</Name>
     </ProjectReference>
