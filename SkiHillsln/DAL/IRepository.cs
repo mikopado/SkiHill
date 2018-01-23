@@ -14,5 +14,6 @@ namespace DAL
         T GetElement(Func<T, bool> func);
         IEnumerable<T> GetElements(Func<T, bool> func);
         void Update(T element);
+        int Count();
     }
 }

@@ -43,5 +43,10 @@ namespace DAL
         {
             Db.Entry(element).State = EntityState.Modified;
         }
+
+        public int Count()
+        {
+            return Entities.Count();
+        }
     }
 }
