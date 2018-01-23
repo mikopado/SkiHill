@@ -20,7 +20,7 @@ namespace SkiHill.Controllers
         public ActionResult Index(string categ = "AllMountain")
         {
             ViewBag.Title = string.Join(" ", Regex.Split(categ, @"(?<!^)(?=[A-Z])")) + " Ski";
-            if (unit.SkiRepo.Count() > 0)
+            if (unit.SkiRepo != null && unit.SkiRepo.Count() > 0)
             {
                 return View(unit.SkiRepo.GetElements(x => x.Category.ToString().Equals(categ)));
 
