@@ -1,6 +1,6 @@
 ﻿@using System.Text.RegularExpressions;
 
-<div class="wrapper three-cols col-md-offset-1">
+<div class="wrapper three-cols col-sm-offset-1 six-rows">
    
     <a href="@Url.Action("Index", "Skis", new {categ= @DAL.Models.SkiCategory.AllMountain.ToString() })">
         <div id="ski-allmountain" class="prod-images"></div>@string.Join(" ", Regex.Split(DAL.Models.SkiCategory.AllMountain.ToString(), @"(?<!^)(?=[A-Z])"))

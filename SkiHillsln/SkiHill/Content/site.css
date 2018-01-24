@@ -184,3 +184,27 @@ h3 {
 .create-links{
     margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+    .two-cols, .three-cols {
+        grid-template-columns: repeat(1, 200px);
+    }
+
+    .wrapper {
+        
+        justify-content: center;
+    }
+    .wrapper.four-rows {
+        grid-template-rows: repeat(4, 200px);
+    }
+    .wrapper.six-rows {
+        grid-template-rows: repeat(6, 200px);
+    }
+}
