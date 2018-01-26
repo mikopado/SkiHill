@@ -7,3 +7,6 @@ A simple example of how to implement WCF service and REST API is also provided.
 
 Repository and Unit of Work patterns are applied to separate data layer from business logic layer as well as to test
 the app using mock classes.
+
+Application's link:
+## http://skihill.apphb.com/
